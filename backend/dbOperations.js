@@ -70,7 +70,14 @@ const addAuthor = (requestBody) => {
   return true;
 }
 const getAllBooks = () => {
-   return [booksDb.JSON()]
+   result = []
+   for (const i in booksDb.JSON()) {
+     const book = booksDb.get(i)
+     book.bookId = i;
+     result.push(book)
+   }
+
+   return result
 }
 
 const getAllBooksOfAuthor = (authorId) => {

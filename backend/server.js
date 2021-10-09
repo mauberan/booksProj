@@ -3,11 +3,12 @@ const path = require('path');
 require( 'dotenv/config');
 const DbOperations = require('./dbOperations');
 var bodyParser = require('body-parser')
+var cors = require('cors')
 
 
 const app = express();
 app.use(bodyParser.json())
-
+app.use(cors());
 
 
 app.get('/books', (req, res) => {
