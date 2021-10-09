@@ -28,7 +28,7 @@ class BooksList extends Component {
 
       <ul>
         {this.state.books.map(item => (
-          <li key={item.bookId}><a href="#"> {item.bookName}</a></li>
+          <li key={item.bookId}><a href={'/books/' + item.bookId}> {item.bookName}</a></li>
           )
         )}
       </ul>
