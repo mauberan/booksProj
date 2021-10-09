@@ -1,0 +1,27 @@
+{
+    "1": {
+        "bookName": "Swimming for beginners",
+        "isbn": "192-555-823",
+        "authorId": "1"
+    },
+    "2": {
+        "bookName": "Swimming for pros",
+        "isbn": "777-777-823",
+        "authorId": "1"
+    },
+    "3": {
+        "bookName": "The lost symbol",
+        "isbn": "543-222-334",
+        "authorId": "2"
+    },
+    "133": {
+        "bookName": "moshe",
+        "isbn": "55-777-666",
+        "authorId": "2"
+    },
+    "321": {
+        "bookName": "shalom world",
+        "isbn": "444-444-442",
+        "authorId": "4"
+    }
+}
